@@ -3,11 +3,11 @@ This guide is maintained in the main Quarkus repository
 and pull requests should be submitted there:
 https://github.com/quarkusio/quarkus/tree/master/docs/src/main/asciidoc
 ////
-= Quarkus - Asynchronous messages between beans
+= Quarkus - Using the event bus
 
 include::./attributes.adoc[]
 
-Quarkus allows different beans to interact using asynchronous messages, enforcing loose-coupling.
+Quarkus allows different beans to interact using asynchronous events, enforcing loose-coupling.
 The messages are sent to _virtual addresses_.
 It offers 3 types of delivery mechanism:
 
